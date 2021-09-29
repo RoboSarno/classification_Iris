@@ -9,7 +9,7 @@ st.write("""
     This app predicts the **Palmer Penguin** species!
 """)
 
-expander_bar = st.beta_expander("About")
+expander_bar = st.expander("About")
 expander_bar.markdown("""
     * **Python libraries:** pandas, streamlit, numpy, pickle, sklearn
     * **Description:** This application is able to decide and give a prediction on what 
