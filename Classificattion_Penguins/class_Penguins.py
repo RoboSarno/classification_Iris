@@ -48,7 +48,7 @@ else:
 
 # combines user input features with entire penguins dataset
 # penguins_raw = pd.read_csv('/Classification/Classificattion_Penguins/Data/penguins_cleaned.csv')
-filename = 'penguins_cleaned.csv'
+filename = '/Classification/Classificattion_Penguins/Data/penguins_cleaned.csv'
 with open(filename) as readfile:
     penguins_raw = pd.read_csv(readfile.read())
 
