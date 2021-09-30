@@ -47,10 +47,10 @@ else:
     input_df = user_input_features()
 
 # combines user input features with entire penguins dataset
-# penguins_raw = pd.read_csv('/Classification/Classificattion_Penguins/Data/penguins_cleaned.csv')
-filename = 'Classificattion_Penguins/Data/penguins_cleaned.csv'
-with open(filename) as readfile:
-    penguins_raw = pd.read_csv(readfile.read())
+penguins_raw = pd.read_csv('Classificattion_Penguins/Data/penguins_cleaned.csv')
+# filename = 'Classificattion_Penguins/Data/penguins_cleaned.csv'
+# with open(filename) as readfile:
+#     penguins_raw = pd.read_csv(readfile.read())
 
 penguins = penguins_raw.drop(columns=['species'])
 
