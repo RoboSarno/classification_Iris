@@ -47,7 +47,7 @@ else:
     input_df = user_input_features()
 
 # combines user input features with entire penguins dataset
-penguins_raw = pd.read_csv('penguins_cleaned.csv')
+penguins_raw = pd.read_csv('/Classification/Classificattion_Penguins/Data/penguins_cleaned.csv')
 penguins = penguins_raw.drop(columns=['species'])
 
 # comparing input data to penguins
@@ -71,7 +71,7 @@ else:
     st.write(df)
 
 # reads in saved classification model
-load_clf = pickle.load(open('penguins_clf.pkl', 'rb'))
+load_clf = pickle.load(open('Data/penguins_clf.pkl', 'rb'))
 
 # apply model to make predictions
 prediction = load_clf.predict(df)
