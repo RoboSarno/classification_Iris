@@ -1,3 +1,2 @@
-The application can be seen on:
+Will soon be hosted on Heroku
 
-https://share.streamlit.io/robosarno/classification_projects/main/class_iris.py
